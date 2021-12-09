@@ -10,6 +10,7 @@ FlutterFlow projects are built to run on the Flutter _stable_ release.
 
 To compile this application successfully, you should run it on Visual Studio Code and ensure that the required Dart extensions are being downloaded based on the pop up message shown in the bottom right corner.
 
+In case your VS Code is unable to run the application successfully or the user interface has run out of shape (we are building the app using iPhone 11 Pro UI), then you could access to the flutter flow link: https://app.flutterflow.io/run/M8ZDuPafXUsI91o7HDfV for a better view.
 
 ### Getting started continued:
 
