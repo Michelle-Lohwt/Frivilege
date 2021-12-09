@@ -122,7 +122,7 @@ class _NotificationWidgetState extends State<NotificationWidget> {
                                   child: Container(
                                     width: 334,
                                     height: MediaQuery.of(context).size.height *
-                                        0.15,
+                                        0.2,
                                     decoration: BoxDecoration(
                                       color: Color(0xFFFAFAFA),
                                       borderRadius: BorderRadius.circular(20),
@@ -182,6 +182,19 @@ class _NotificationWidgetState extends State<NotificationWidget> {
                                                 style:
                                                     FlutterFlowTheme.bodyText1,
                                               ),
+                                            ),
+                                            Padding(
+                                              padding: EdgeInsetsDirectional
+                                                  .fromSTEB(5, 5, 0, 0),
+                                              child: Text(
+                                                'Click this notification to view\nthe suggested recipe.',
+                                                style: FlutterFlowTheme
+                                                    .bodyText1
+                                                    .override(
+                                                  fontFamily: 'Poppins',
+                                                  fontWeight: FontWeight.w600,
+                                                ),
+                                              ),
                                             )
                                           ],
                                         )
@@ -195,7 +208,7 @@ class _NotificationWidgetState extends State<NotificationWidget> {
                                   child: Container(
                                     width: 334,
                                     height: MediaQuery.of(context).size.height *
-                                        0.15,
+                                        0.2,
                                     decoration: BoxDecoration(
                                       color: Color(0xFFFAFAFA),
                                       borderRadius: BorderRadius.circular(20),
@@ -264,6 +277,19 @@ class _NotificationWidgetState extends State<NotificationWidget> {
                                                   'Your eggs is about to\nexpire, make sure you finish\nit before 6 Dec 2021.',
                                                   style: FlutterFlowTheme
                                                       .bodyText1,
+                                                ),
+                                              ),
+                                              Padding(
+                                                padding: EdgeInsetsDirectional
+                                                    .fromSTEB(5, 5, 0, 0),
+                                                child: Text(
+                                                  'Click this notification to view\nthe suggested recipe.',
+                                                  style: FlutterFlowTheme
+                                                      .bodyText1
+                                                      .override(
+                                                    fontFamily: 'Poppins',
+                                                    fontWeight: FontWeight.w600,
+                                                  ),
                                                 ),
                                               )
                                             ],
