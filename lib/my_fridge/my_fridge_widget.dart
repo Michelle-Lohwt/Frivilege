@@ -296,10 +296,12 @@ class _MyFridgeWidgetState extends State<MyFridgeWidget> {
                                                             FontWeight.w600,
                                                       ),
                                                     ),
-                                                    Text(
-                                                      'healthy.',
-                                                      style: FlutterFlowTheme
-                                                          .bodyText1,
+                                                    Expanded(
+                                                      child: Text(
+                                                        'healthy.',
+                                                        style: FlutterFlowTheme
+                                                            .bodyText1,
+                                                      ),
                                                     )
                                                   ],
                                                 ),

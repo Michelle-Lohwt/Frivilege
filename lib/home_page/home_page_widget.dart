@@ -594,10 +594,12 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                           .w600,
                                                                 ),
                                                               ),
-                                                              Text(
-                                                                'healthy.',
-                                                                style: FlutterFlowTheme
-                                                                    .bodyText1,
+                                                              Expanded(
+                                                                child: Text(
+                                                                  'healthy.',
+                                                                  style: FlutterFlowTheme
+                                                                      .bodyText1,
+                                                                ),
                                                               )
                                                             ],
                                                           ),
