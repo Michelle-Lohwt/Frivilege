@@ -274,54 +274,32 @@ class _MyFridgeWidgetState extends State<MyFridgeWidget> {
                                                       padding:
                                                           EdgeInsetsDirectional
                                                               .fromSTEB(
-                                                                  0, 20, 0, 20),
-                                                      child: Row(
-                                                        mainAxisSize:
-                                                            MainAxisSize.max,
-                                                        mainAxisAlignment:
-                                                            MainAxisAlignment
-                                                                .center,
-                                                        children: [
-                                                          Column(
-                                                            mainAxisSize:
-                                                                MainAxisSize
-                                                                    .max,
-                                                            mainAxisAlignment:
-                                                                MainAxisAlignment
-                                                                    .center,
-                                                            children: [
-                                                              Text(
-                                                                'Your Fridge is',
-                                                                style: FlutterFlowTheme
-                                                                    .bodyText1,
-                                                              ),
-                                                              Text(
-                                                                '68.5%',
-                                                                textAlign:
-                                                                    TextAlign
-                                                                        .center,
-                                                                style: FlutterFlowTheme
-                                                                    .bodyText1
-                                                                    .override(
-                                                                  fontFamily:
-                                                                      'Poppins',
-                                                                  color: Color(
-                                                                      0xFF03A9F4),
-                                                                  fontSize: 30,
-                                                                  fontWeight:
-                                                                      FontWeight
-                                                                          .w600,
-                                                                ),
-                                                              ),
-                                                              Text(
-                                                                'healthy.',
-                                                                style: FlutterFlowTheme
-                                                                    .bodyText1,
-                                                              )
-                                                            ],
-                                                          )
-                                                        ],
+                                                                  0, 20, 0, 0),
+                                                      child: Text(
+                                                        'Your Fridge is',
+                                                        style: FlutterFlowTheme
+                                                            .bodyText1,
                                                       ),
+                                                    ),
+                                                    Text(
+                                                      '68.5%',
+                                                      textAlign:
+                                                          TextAlign.center,
+                                                      style: FlutterFlowTheme
+                                                          .bodyText1
+                                                          .override(
+                                                        fontFamily: 'Poppins',
+                                                        color:
+                                                            Color(0xFF03A9F4),
+                                                        fontSize: 30,
+                                                        fontWeight:
+                                                            FontWeight.w600,
+                                                      ),
+                                                    ),
+                                                    Text(
+                                                      'healthy.',
+                                                      style: FlutterFlowTheme
+                                                          .bodyText1,
                                                     )
                                                   ],
                                                 ),
