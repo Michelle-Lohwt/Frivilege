@@ -125,78 +125,80 @@ class _ScanMultipleFoodWidgetState extends State<ScanMultipleFoodWidget> {
                                     fit: BoxFit.cover,
                                   ),
                                 ),
-                                Row(
-                                  mainAxisSize: MainAxisSize.max,
-                                  children: [
-                                    Expanded(
-                                      child: Container(
-                                        width: 200,
-                                        height: 30,
-                                        decoration: BoxDecoration(
-                                          color: Color(0xFF4FC3F7),
-                                          borderRadius:
-                                              BorderRadius.circular(20),
-                                        ),
-                                        child: Text(
-                                          'Food Detected',
-                                          textAlign: TextAlign.center,
-                                          style:
-                                              FlutterFlowTheme.title2.override(
-                                            fontFamily: 'Poppins',
-                                            color: Color(0xFFFAFAFA),
+                                Expanded(
+                                  child: Row(
+                                    mainAxisSize: MainAxisSize.max,
+                                    children: [
+                                      Expanded(
+                                        child: Container(
+                                          width: 200,
+                                          height: 30,
+                                          decoration: BoxDecoration(
+                                            color: Color(0xFF4FC3F7),
+                                            borderRadius:
+                                                BorderRadius.circular(20),
+                                          ),
+                                          child: Text(
+                                            'Food Detected',
+                                            textAlign: TextAlign.center,
+                                            style: FlutterFlowTheme.title2
+                                                .override(
+                                              fontFamily: 'Poppins',
+                                              color: Color(0xFFFAFAFA),
+                                            ),
                                           ),
                                         ),
                                       ),
-                                    ),
-                                    Column(
-                                      mainAxisSize: MainAxisSize.max,
-                                      children: [
-                                        FlutterFlowIconButton(
-                                          borderColor: Colors.transparent,
-                                          borderRadius: 30,
-                                          borderWidth: 1,
-                                          buttonSize: 60,
-                                          icon: Icon(
-                                            Icons.food_bank,
-                                            color: Colors.black,
-                                            size: 30,
+                                      Column(
+                                        mainAxisSize: MainAxisSize.max,
+                                        children: [
+                                          FlutterFlowIconButton(
+                                            borderColor: Colors.transparent,
+                                            borderRadius: 30,
+                                            borderWidth: 1,
+                                            buttonSize: 60,
+                                            icon: Icon(
+                                              Icons.food_bank,
+                                              color: Colors.black,
+                                              size: 30,
+                                            ),
+                                            onPressed: () async {
+                                              await Navigator.push(
+                                                context,
+                                                PageTransition(
+                                                  type: PageTransitionType.fade,
+                                                  duration:
+                                                      Duration(milliseconds: 0),
+                                                  reverseDuration:
+                                                      Duration(milliseconds: 0),
+                                                  child: MyFridgeWidget(),
+                                                ),
+                                              );
+                                            },
                                           ),
-                                          onPressed: () async {
-                                            await Navigator.push(
-                                              context,
-                                              PageTransition(
-                                                type: PageTransitionType.fade,
-                                                duration:
-                                                    Duration(milliseconds: 0),
-                                                reverseDuration:
-                                                    Duration(milliseconds: 0),
-                                                child: MyFridgeWidget(),
-                                              ),
-                                            );
-                                          },
-                                        ),
-                                        InkWell(
-                                          onTap: () async {
-                                            await Navigator.push(
-                                              context,
-                                              PageTransition(
-                                                type: PageTransitionType.fade,
-                                                duration:
-                                                    Duration(milliseconds: 0),
-                                                reverseDuration:
-                                                    Duration(milliseconds: 0),
-                                                child: MyFridgeWidget(),
-                                              ),
-                                            );
-                                          },
-                                          child: Text(
-                                            'Check Fridge',
-                                            style: FlutterFlowTheme.bodyText1,
-                                          ),
-                                        )
-                                      ],
-                                    )
-                                  ],
+                                          InkWell(
+                                            onTap: () async {
+                                              await Navigator.push(
+                                                context,
+                                                PageTransition(
+                                                  type: PageTransitionType.fade,
+                                                  duration:
+                                                      Duration(milliseconds: 0),
+                                                  reverseDuration:
+                                                      Duration(milliseconds: 0),
+                                                  child: MyFridgeWidget(),
+                                                ),
+                                              );
+                                            },
+                                            child: Text(
+                                              'Check Fridge',
+                                              style: FlutterFlowTheme.bodyText1,
+                                            ),
+                                          )
+                                        ],
+                                      )
+                                    ],
+                                  ),
                                 )
                               ],
                             ),

@@ -112,23 +112,27 @@ class _AnalysisWidgetState extends State<AnalysisWidget> {
                                     crossAxisAlignment:
                                         CrossAxisAlignment.start,
                                     children: [
-                                      Container(
-                                        width:
-                                            MediaQuery.of(context).size.width *
-                                                0.9,
-                                        height:
-                                            MediaQuery.of(context).size.height *
-                                                0.5,
-                                        decoration: BoxDecoration(
-                                          color: Color(0xFFFAFAFA),
-                                          borderRadius:
-                                              BorderRadius.circular(20),
-                                        ),
-                                        child: Image.asset(
-                                          'assets/images/Screenshot_2021-12-09_210606.jpg',
-                                          width: 100,
-                                          height: 100,
-                                          fit: BoxFit.contain,
+                                      Expanded(
+                                        child: Container(
+                                          width: MediaQuery.of(context)
+                                                  .size
+                                                  .width *
+                                              0.9,
+                                          height: MediaQuery.of(context)
+                                                  .size
+                                                  .height *
+                                              0.5,
+                                          decoration: BoxDecoration(
+                                            color: Color(0xFFFAFAFA),
+                                            borderRadius:
+                                                BorderRadius.circular(20),
+                                          ),
+                                          child: Image.asset(
+                                            'assets/images/Screenshot_2021-12-09_210606.jpg',
+                                            width: 100,
+                                            height: 100,
+                                            fit: BoxFit.contain,
+                                          ),
                                         ),
                                       )
                                     ],
