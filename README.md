@@ -1,10 +1,13 @@
 # FRIVILEGE
 
-This is a flutter project that is functioning as the fridge management application.
-
-## Getting Started
-
-FlutterFlow projects are built to run on the Flutter _stable_ release.
+Frivilege is a flutter-based fridge management application. This is a prototype built for Monash Hackathon 2021 Round 2. The prototype includes 
+- Login and Sign Up
+- Home Page
+- Notification
+- Suggested Recipe based on the food list in the refridgerator
+- Receipt and Food Scanning to detect food life span
+- Life Span Analysis
+- Food List in the user's refridgerator
 
 ## Prerequisites
 - You need to install VSCode, Dart, Flutter, Android Studio and Emulator to get this application. You may refer the video link: https://www.youtube.com/watch?v=a9BAdRqgnTc to install Flutter in VSCode.
