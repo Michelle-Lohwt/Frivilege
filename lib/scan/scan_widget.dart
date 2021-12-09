@@ -112,7 +112,7 @@ class _ScanWidgetState extends State<ScanWidget> {
                                   width:
                                       MediaQuery.of(context).size.width * 0.9,
                                   height:
-                                      MediaQuery.of(context).size.height * 0.6,
+                                      MediaQuery.of(context).size.height * 0.55,
                                   decoration: BoxDecoration(
                                     border: Border.all(
                                       color: Color(0xFFFFEBEE),

@@ -111,7 +111,7 @@ class _ScanMultipleFoodWidgetState extends State<ScanMultipleFoodWidget> {
                                   width:
                                       MediaQuery.of(context).size.width * 0.9,
                                   height:
-                                      MediaQuery.of(context).size.height * 0.6,
+                                      MediaQuery.of(context).size.height * 0.5,
                                   decoration: BoxDecoration(
                                     border: Border.all(
                                       color: Color(0xFFFFEBEE),
@@ -151,6 +151,8 @@ class _ScanMultipleFoodWidgetState extends State<ScanMultipleFoodWidget> {
                                       ),
                                       Column(
                                         mainAxisSize: MainAxisSize.max,
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.center,
                                         children: [
                                           FlutterFlowIconButton(
                                             borderColor: Colors.transparent,
