@@ -6,8 +6,8 @@ Frivilege is a flutter-based fridge management application. This is a prototype 
 - Notification
 - Suggested Recipe based on the food list in the refridgerator
 - Receipt and Food Scanning to detect food life span
-- Life Span Analysis
-- Food List in the user's refridgerator
+- Foods in the user's refridgerator
+- - Life Span Analysis
 
 ## Prerequisites
 - You need to install VSCode, Dart, Flutter, Android Studio and Emulator to get this application. You may refer the video link: https://www.youtube.com/watch?v=a9BAdRqgnTc to install Flutter in VSCode.
