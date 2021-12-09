@@ -5,18 +5,17 @@ import '../home_page/home_page_widget.dart';
 import '../my_fridge/my_fridge_widget.dart';
 import '../notification/notification_widget.dart';
 import '../scan/scan_widget.dart';
-import '../scan_multiple_food/scan_multiple_food_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class ScanReceiptWidget extends StatefulWidget {
-  const ScanReceiptWidget({Key key}) : super(key: key);
+class ScanMultipleFoodWidget extends StatefulWidget {
+  const ScanMultipleFoodWidget({Key key}) : super(key: key);
 
   @override
-  _ScanReceiptWidgetState createState() => _ScanReceiptWidgetState();
+  _ScanMultipleFoodWidgetState createState() => _ScanMultipleFoodWidgetState();
 }
 
-class _ScanReceiptWidgetState extends State<ScanReceiptWidget> {
+class _ScanMultipleFoodWidgetState extends State<ScanMultipleFoodWidget> {
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
@@ -120,10 +119,10 @@ class _ScanReceiptWidgetState extends State<ScanReceiptWidget> {
                                     ),
                                   ),
                                   child: Image.asset(
-                                    'assets/images/Detailed-Grocery-Payment-Receipt-Samples.jpg',
+                                    'assets/images/k_Photo_Series_2019-10--power-hour-instant-pot_Power-Hour-Instant-Pot_001-rotated.jpg',
                                     width: 100,
                                     height: 100,
-                                    fit: BoxFit.contain,
+                                    fit: BoxFit.cover,
                                   ),
                                 ),
                                 Row(
@@ -139,7 +138,7 @@ class _ScanReceiptWidgetState extends State<ScanReceiptWidget> {
                                               BorderRadius.circular(20),
                                         ),
                                         child: Text(
-                                          'Receipt Detected',
+                                          'Food Detected',
                                           textAlign: TextAlign.center,
                                           style:
                                               FlutterFlowTheme.title2.override(
@@ -158,7 +157,7 @@ class _ScanReceiptWidgetState extends State<ScanReceiptWidget> {
                                           borderWidth: 1,
                                           buttonSize: 60,
                                           icon: Icon(
-                                            Icons.fastfood_outlined,
+                                            Icons.food_bank,
                                             color: Colors.black,
                                             size: 30,
                                           ),
@@ -171,7 +170,7 @@ class _ScanReceiptWidgetState extends State<ScanReceiptWidget> {
                                                     Duration(milliseconds: 0),
                                                 reverseDuration:
                                                     Duration(milliseconds: 0),
-                                                child: ScanMultipleFoodWidget(),
+                                                child: MyFridgeWidget(),
                                               ),
                                             );
                                           },
@@ -186,12 +185,12 @@ class _ScanReceiptWidgetState extends State<ScanReceiptWidget> {
                                                     Duration(milliseconds: 0),
                                                 reverseDuration:
                                                     Duration(milliseconds: 0),
-                                                child: ScanMultipleFoodWidget(),
+                                                child: MyFridgeWidget(),
                                               ),
                                             );
                                           },
                                           child: Text(
-                                            'Scan Receipt Food',
+                                            'Check Fridge',
                                             style: FlutterFlowTheme.bodyText1,
                                           ),
                                         )

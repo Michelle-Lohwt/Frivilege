@@ -8,14 +8,14 @@ import '../scan/scan_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class ScanFoodWidget extends StatefulWidget {
-  const ScanFoodWidget({Key key}) : super(key: key);
+class ScanOneFoodWidget extends StatefulWidget {
+  const ScanOneFoodWidget({Key key}) : super(key: key);
 
   @override
-  _ScanFoodWidgetState createState() => _ScanFoodWidgetState();
+  _ScanOneFoodWidgetState createState() => _ScanOneFoodWidgetState();
 }
 
-class _ScanFoodWidgetState extends State<ScanFoodWidget> {
+class _ScanOneFoodWidgetState extends State<ScanOneFoodWidget> {
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override

@@ -4,7 +4,7 @@ import '../flutter_flow/flutter_flow_util.dart';
 import '../home_page/home_page_widget.dart';
 import '../my_fridge/my_fridge_widget.dart';
 import '../notification/notification_widget.dart';
-import '../scan_food/scan_food_widget.dart';
+import '../scan_one_food/scan_one_food_widget.dart';
 import '../scan_receipt/scan_receipt_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -213,7 +213,7 @@ class _ScanWidgetState extends State<ScanWidget> {
                                                     Duration(milliseconds: 0),
                                                 reverseDuration:
                                                     Duration(milliseconds: 0),
-                                                child: ScanFoodWidget(),
+                                                child: ScanOneFoodWidget(),
                                               ),
                                             );
                                           },
@@ -228,7 +228,7 @@ class _ScanWidgetState extends State<ScanWidget> {
                                                     Duration(milliseconds: 0),
                                                 reverseDuration:
                                                     Duration(milliseconds: 0),
-                                                child: ScanFoodWidget(),
+                                                child: ScanOneFoodWidget(),
                                               ),
                                             );
                                           },
