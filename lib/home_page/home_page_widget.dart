@@ -622,7 +622,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                 CrossAxisAlignment.start,
                                             children: [
                                               Text(
-                                                'Recipe',
+                                                'Suggested Recipe',
                                                 style: FlutterFlowTheme
                                                     .bodyText1
                                                     .override(
