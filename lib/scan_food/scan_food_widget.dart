@@ -119,10 +119,10 @@ class _ScanFoodWidgetState extends State<ScanFoodWidget> {
                                     ),
                                   ),
                                   child: Image.asset(
-                                    'assets/images/k_Photo_Series_2019-10--power-hour-instant-pot_Power-Hour-Instant-Pot_001-rotated.jpg',
+                                    'assets/images/download_(7).jpg',
                                     width: 100,
                                     height: 100,
-                                    fit: BoxFit.cover,
+                                    fit: BoxFit.contain,
                                   ),
                                 ),
                                 Row(
