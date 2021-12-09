@@ -109,9 +109,9 @@ class _MyFridgeWidgetState extends State<MyFridgeWidget> {
                               crossAxisAlignment: CrossAxisAlignment.center,
                               children: [
                                 Container(
-                                  width: 334,
+                                  width: MediaQuery.of(context).size.width,
                                   height:
-                                      MediaQuery.of(context).size.height * 0.32,
+                                      MediaQuery.of(context).size.height * 0.3,
                                   decoration: BoxDecoration(
                                     color: Color(0xFFFAFAFA),
                                     borderRadius: BorderRadius.circular(20),
