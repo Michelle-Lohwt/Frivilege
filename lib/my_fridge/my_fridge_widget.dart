@@ -124,78 +124,80 @@ class _MyFridgeWidgetState extends State<MyFridgeWidget> {
                                       Column(
                                         mainAxisSize: MainAxisSize.max,
                                         children: [
-                                          Row(
-                                            mainAxisSize: MainAxisSize.max,
-                                            crossAxisAlignment:
-                                                CrossAxisAlignment.end,
-                                            children: [
-                                              Padding(
-                                                padding: EdgeInsetsDirectional
-                                                    .fromSTEB(20, 0, 0, 0),
-                                                child: Container(
-                                                  width: 20,
-                                                  height: 150,
-                                                  decoration: BoxDecoration(
-                                                    color: Color(0xFFD32F2F),
-                                                    borderRadius:
-                                                        BorderRadius.only(
-                                                      bottomLeft:
-                                                          Radius.circular(0),
-                                                      bottomRight:
-                                                          Radius.circular(0),
-                                                      topLeft:
-                                                          Radius.circular(5),
-                                                      topRight:
-                                                          Radius.circular(5),
+                                          Expanded(
+                                            child: Row(
+                                              mainAxisSize: MainAxisSize.max,
+                                              crossAxisAlignment:
+                                                  CrossAxisAlignment.end,
+                                              children: [
+                                                Padding(
+                                                  padding: EdgeInsetsDirectional
+                                                      .fromSTEB(20, 0, 0, 0),
+                                                  child: Container(
+                                                    width: 20,
+                                                    height: 150,
+                                                    decoration: BoxDecoration(
+                                                      color: Color(0xFFD32F2F),
+                                                      borderRadius:
+                                                          BorderRadius.only(
+                                                        bottomLeft:
+                                                            Radius.circular(0),
+                                                        bottomRight:
+                                                            Radius.circular(0),
+                                                        topLeft:
+                                                            Radius.circular(5),
+                                                        topRight:
+                                                            Radius.circular(5),
+                                                      ),
                                                     ),
                                                   ),
                                                 ),
-                                              ),
-                                              Padding(
-                                                padding: EdgeInsetsDirectional
-                                                    .fromSTEB(20, 20, 0, 0),
-                                                child: Container(
-                                                  width: 20,
-                                                  height: 220,
-                                                  decoration: BoxDecoration(
-                                                    color: Color(0xFF29B6F6),
-                                                    borderRadius:
-                                                        BorderRadius.only(
-                                                      bottomLeft:
-                                                          Radius.circular(0),
-                                                      bottomRight:
-                                                          Radius.circular(0),
-                                                      topLeft:
-                                                          Radius.circular(5),
-                                                      topRight:
-                                                          Radius.circular(5),
+                                                Padding(
+                                                  padding: EdgeInsetsDirectional
+                                                      .fromSTEB(20, 20, 0, 0),
+                                                  child: Container(
+                                                    width: 20,
+                                                    height: 220,
+                                                    decoration: BoxDecoration(
+                                                      color: Color(0xFF29B6F6),
+                                                      borderRadius:
+                                                          BorderRadius.only(
+                                                        bottomLeft:
+                                                            Radius.circular(0),
+                                                        bottomRight:
+                                                            Radius.circular(0),
+                                                        topLeft:
+                                                            Radius.circular(5),
+                                                        topRight:
+                                                            Radius.circular(5),
+                                                      ),
                                                     ),
                                                   ),
                                                 ),
-                                              ),
-                                              Padding(
-                                                padding: EdgeInsetsDirectional
-                                                    .fromSTEB(20, 20, 0, 0),
-                                                child: Container(
-                                                  width: 20,
-                                                  height: 100,
-                                                  decoration: BoxDecoration(
-                                                    color: Color(0xFFAED581),
-                                                    borderRadius:
-                                                        BorderRadius.only(
-                                                      bottomLeft:
-                                                          Radius.circular(0),
-                                                      bottomRight:
-                                                          Radius.circular(0),
-                                                      topLeft:
-                                                          Radius.circular(5),
-                                                      topRight:
-                                                          Radius.circular(5),
+                                                Padding(
+                                                  padding: EdgeInsetsDirectional
+                                                      .fromSTEB(20, 20, 0, 0),
+                                                  child: Container(
+                                                    width: 20,
+                                                    height: 100,
+                                                    decoration: BoxDecoration(
+                                                      color: Color(0xFFAED581),
+                                                      borderRadius:
+                                                          BorderRadius.only(
+                                                        bottomLeft:
+                                                            Radius.circular(0),
+                                                        bottomRight:
+                                                            Radius.circular(0),
+                                                        topLeft:
+                                                            Radius.circular(5),
+                                                        topRight:
+                                                            Radius.circular(5),
+                                                      ),
                                                     ),
                                                   ),
-                                                ),
-                                              )
-                                            ],
+                                                )
+                                              ],
+                                            ),
                                           )
                                         ],
                                       ),
@@ -268,60 +270,57 @@ class _MyFridgeWidgetState extends State<MyFridgeWidget> {
                                                         ),
                                                       ),
                                                     ),
-                                                    Expanded(
-                                                      child: Padding(
-                                                        padding:
-                                                            EdgeInsetsDirectional
-                                                                .fromSTEB(0, 20,
-                                                                    0, 20),
-                                                        child: Row(
-                                                          mainAxisSize:
-                                                              MainAxisSize.max,
-                                                          mainAxisAlignment:
-                                                              MainAxisAlignment
-                                                                  .center,
-                                                          children: [
-                                                            Column(
-                                                              mainAxisSize:
-                                                                  MainAxisSize
-                                                                      .max,
-                                                              mainAxisAlignment:
-                                                                  MainAxisAlignment
-                                                                      .center,
-                                                              children: [
-                                                                Text(
-                                                                  'Your Fridge is',
-                                                                  style: FlutterFlowTheme
-                                                                      .bodyText1,
+                                                    Padding(
+                                                      padding:
+                                                          EdgeInsetsDirectional
+                                                              .fromSTEB(
+                                                                  0, 20, 0, 20),
+                                                      child: Row(
+                                                        mainAxisSize:
+                                                            MainAxisSize.max,
+                                                        mainAxisAlignment:
+                                                            MainAxisAlignment
+                                                                .center,
+                                                        children: [
+                                                          Column(
+                                                            mainAxisSize:
+                                                                MainAxisSize
+                                                                    .max,
+                                                            mainAxisAlignment:
+                                                                MainAxisAlignment
+                                                                    .center,
+                                                            children: [
+                                                              Text(
+                                                                'Your Fridge is',
+                                                                style: FlutterFlowTheme
+                                                                    .bodyText1,
+                                                              ),
+                                                              Text(
+                                                                '68.5%',
+                                                                textAlign:
+                                                                    TextAlign
+                                                                        .center,
+                                                                style: FlutterFlowTheme
+                                                                    .bodyText1
+                                                                    .override(
+                                                                  fontFamily:
+                                                                      'Poppins',
+                                                                  color: Color(
+                                                                      0xFF03A9F4),
+                                                                  fontSize: 30,
+                                                                  fontWeight:
+                                                                      FontWeight
+                                                                          .w600,
                                                                 ),
-                                                                Text(
-                                                                  '68.5%',
-                                                                  textAlign:
-                                                                      TextAlign
-                                                                          .center,
-                                                                  style: FlutterFlowTheme
-                                                                      .bodyText1
-                                                                      .override(
-                                                                    fontFamily:
-                                                                        'Poppins',
-                                                                    color: Color(
-                                                                        0xFF03A9F4),
-                                                                    fontSize:
-                                                                        30,
-                                                                    fontWeight:
-                                                                        FontWeight
-                                                                            .w600,
-                                                                  ),
-                                                                ),
-                                                                Text(
-                                                                  'healthy.',
-                                                                  style: FlutterFlowTheme
-                                                                      .bodyText1,
-                                                                )
-                                                              ],
-                                                            )
-                                                          ],
-                                                        ),
+                                                              ),
+                                                              Text(
+                                                                'healthy.',
+                                                                style: FlutterFlowTheme
+                                                                    .bodyText1,
+                                                              )
+                                                            ],
+                                                          )
+                                                        ],
                                                       ),
                                                     )
                                                   ],

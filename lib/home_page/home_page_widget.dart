@@ -341,7 +341,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                             height: MediaQuery.of(context)
                                                     .size
                                                     .height *
-                                                1,
+                                                2,
                                             decoration: BoxDecoration(
                                               color: Color(0xFFD6D6D6),
                                               borderRadius:
@@ -562,54 +562,60 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                   ),
                                                                 ),
                                                               ),
-                                                              Expanded(
-                                                                child: Padding(
-                                                                  padding: EdgeInsetsDirectional
-                                                                      .fromSTEB(
-                                                                          0,
-                                                                          20,
-                                                                          0,
-                                                                          20),
-                                                                  child: Row(
-                                                                    mainAxisSize:
-                                                                        MainAxisSize
-                                                                            .max,
-                                                                    mainAxisAlignment:
-                                                                        MainAxisAlignment
-                                                                            .center,
-                                                                    children: [
-                                                                      Column(
-                                                                        mainAxisSize:
-                                                                            MainAxisSize.max,
-                                                                        mainAxisAlignment:
-                                                                            MainAxisAlignment.center,
-                                                                        children: [
-                                                                          Text(
-                                                                            'Your Fridge is',
-                                                                            style:
-                                                                                FlutterFlowTheme.bodyText1,
+                                                              Padding(
+                                                                padding:
+                                                                    EdgeInsetsDirectional
+                                                                        .fromSTEB(
+                                                                            0,
+                                                                            20,
+                                                                            0,
+                                                                            20),
+                                                                child: Row(
+                                                                  mainAxisSize:
+                                                                      MainAxisSize
+                                                                          .max,
+                                                                  mainAxisAlignment:
+                                                                      MainAxisAlignment
+                                                                          .center,
+                                                                  children: [
+                                                                    Column(
+                                                                      mainAxisSize:
+                                                                          MainAxisSize
+                                                                              .max,
+                                                                      mainAxisAlignment:
+                                                                          MainAxisAlignment
+                                                                              .center,
+                                                                      children: [
+                                                                        Text(
+                                                                          'Your Fridge is',
+                                                                          style:
+                                                                              FlutterFlowTheme.bodyText1,
+                                                                        ),
+                                                                        Text(
+                                                                          '68.5%',
+                                                                          textAlign:
+                                                                              TextAlign.center,
+                                                                          style: FlutterFlowTheme
+                                                                              .bodyText1
+                                                                              .override(
+                                                                            fontFamily:
+                                                                                'Poppins',
+                                                                            color:
+                                                                                Color(0xFF03A9F4),
+                                                                            fontSize:
+                                                                                30,
+                                                                            fontWeight:
+                                                                                FontWeight.w600,
                                                                           ),
-                                                                          Text(
-                                                                            '68.5%',
-                                                                            textAlign:
-                                                                                TextAlign.center,
-                                                                            style:
-                                                                                FlutterFlowTheme.bodyText1.override(
-                                                                              fontFamily: 'Poppins',
-                                                                              color: Color(0xFF03A9F4),
-                                                                              fontSize: 30,
-                                                                              fontWeight: FontWeight.w600,
-                                                                            ),
-                                                                          ),
-                                                                          Text(
-                                                                            'healthy.',
-                                                                            style:
-                                                                                FlutterFlowTheme.bodyText1,
-                                                                          )
-                                                                        ],
-                                                                      )
-                                                                    ],
-                                                                  ),
+                                                                        ),
+                                                                        Text(
+                                                                          'healthy.',
+                                                                          style:
+                                                                              FlutterFlowTheme.bodyText1,
+                                                                        )
+                                                                      ],
+                                                                    )
+                                                                  ],
                                                                 ),
                                                               )
                                                             ],
