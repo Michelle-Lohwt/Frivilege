@@ -341,7 +341,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                             height: MediaQuery.of(context)
                                                     .size
                                                     .height *
-                                                2,
+                                                1,
                                             decoration: BoxDecoration(
                                               color: Color(0xFFD6D6D6),
                                               borderRadius:
@@ -576,28 +576,48 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                       .bodyText1,
                                                                 ),
                                                               ),
-                                                              Text(
-                                                                '68.5%',
-                                                                textAlign:
-                                                                    TextAlign
-                                                                        .center,
-                                                                style: FlutterFlowTheme
-                                                                    .bodyText1
-                                                                    .override(
-                                                                  fontFamily:
-                                                                      'Poppins',
-                                                                  color: Color(
-                                                                      0xFF03A9F4),
-                                                                  fontSize: 30,
-                                                                  fontWeight:
-                                                                      FontWeight
-                                                                          .w600,
-                                                                ),
-                                                              ),
-                                                              Text(
-                                                                'healthy.',
-                                                                style: FlutterFlowTheme
-                                                                    .bodyText1,
+                                                              Row(
+                                                                mainAxisSize:
+                                                                    MainAxisSize
+                                                                        .max,
+                                                                children: [
+                                                                  Text(
+                                                                    '68.5%',
+                                                                    textAlign:
+                                                                        TextAlign
+                                                                            .center,
+                                                                    style: FlutterFlowTheme
+                                                                        .bodyText1
+                                                                        .override(
+                                                                      fontFamily:
+                                                                          'Poppins',
+                                                                      color: Color(
+                                                                          0xFF03A9F4),
+                                                                      fontSize:
+                                                                          30,
+                                                                      fontWeight:
+                                                                          FontWeight
+                                                                              .w600,
+                                                                    ),
+                                                                  ),
+                                                                  Expanded(
+                                                                    child:
+                                                                        Padding(
+                                                                      padding: EdgeInsetsDirectional
+                                                                          .fromSTEB(
+                                                                              5,
+                                                                              0,
+                                                                              0,
+                                                                              0),
+                                                                      child:
+                                                                          Text(
+                                                                        'healthy.',
+                                                                        style: FlutterFlowTheme
+                                                                            .bodyText1,
+                                                                      ),
+                                                                    ),
+                                                                  )
+                                                                ],
                                                               )
                                                             ],
                                                           ),
