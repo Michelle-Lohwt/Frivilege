@@ -1,4 +1,4 @@
-# frivilege
+# FRIVILEGE
 
 This is a flutter project that is functioning as the fridge management application.
 
