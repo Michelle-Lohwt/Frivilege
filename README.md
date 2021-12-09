@@ -8,16 +8,9 @@ FlutterFlow projects are built to run on the Flutter _stable_ release.
 
 ### IMPORTANT:
 
-For projects with Firestore integration, you must first run the following commands to ensure the project compiles:
+To compile this application successfully, you should run it on Visual Studio Code and ensure that the required Dart extensions are being downloaded based on the pop up message shown in the bottom right corner.
 
-```
-flutter pub get
-flutter packages pub run build_runner build --delete-conflicting-outputs
-```
 
-This command creates the generated files that parse each Record from Firestore into a schema object.
-
-To compile this application successfully, you should run it on Visual Studio Code and ensure that the required Dart extensions are being downloaded based on the pop up message shown.
 ### Getting started continued:
 
 This project is a starting point for a Flutter application.
