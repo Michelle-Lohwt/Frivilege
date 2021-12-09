@@ -11,7 +11,7 @@ The prototype includes:
 - Suggested Recipe based on the food list in the refridgerator
 - Receipt and Food Scanning to detect food life span
 - Foods in the user's refridgerator
-- - Life Span Analysis
+- Life Span Analysis
 
 ## Prerequisites
 - You need to install VSCode, Dart, Flutter, Android Studio and Emulator to get this application. You may refer the video link: https://www.youtube.com/watch?v=a9BAdRqgnTc to install Flutter in VSCode.
