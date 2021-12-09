@@ -1,6 +1,6 @@
 # frivilege
 
-A new Flutter project.
+This is a flutter project that is functioning as the fridge management application.
 
 ## Getting Started
 
@@ -17,6 +17,7 @@ flutter packages pub run build_runner build --delete-conflicting-outputs
 
 This command creates the generated files that parse each Record from Firestore into a schema object.
 
+To compile this application successfully, you should run it on Visual Studio Code and ensure that the required Dart extensions are being downloaded based on the pop up message.
 ### Getting started continued:
 
 This project is a starting point for a Flutter application.
