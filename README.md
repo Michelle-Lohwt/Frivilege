@@ -47,4 +47,4 @@ To compile this application successfully, you should run it on Visual Studio Cod
 In case your VS Code is unable to run the application successfully or the user interface has run out of shape (we are building the app using iPhone 11 Pro UI by default), then you could access to the flutter flow link: https://app.flutterflow.io/run/TOip00NDUmXId1vH4n2g for a better view.
 
 Youtube link: https://www.youtube.com/watch?v=Gfv-PuI5YHY
-It is recommended to use laptop or tablet to watch this video.
+- It is recommended to use laptop or tablet to watch this video.
